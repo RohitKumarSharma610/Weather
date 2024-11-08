@@ -67,6 +67,8 @@ console.log(navigator.geolocation.getCurrentPosition((data)=>{
            console.log(error)
      }))
 
+     call("delhi")
+
 
      function get(latitude, longitude){
         console.log("i am get")
