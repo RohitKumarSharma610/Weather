@@ -151,8 +151,12 @@ nav {
     width: 80%;
   }
 
+  .flex1 {
+    margin-right: 30px;
+  }
+
   .force {
-    width: 45%;
+    width: 50%;
     margin: auto;
   }
 

@@ -60,12 +60,13 @@ function togbut() {
 
 }
 
-console.log(navigator.geolocation.getCurrentPosition((data)=>{
+navigator.geolocation.getCurrentPosition((data)=>{
     console.log(data,data.coords.longitude ,data.coords.latitude)
       get(data.coords.latitude, data.coords.longitude)
      },(error)=>{
            console.log(error)
-     }))
+           call("Delhi")
+     })
 
      
 
